@@ -1,0 +1,18 @@
+app:
+  name: "MuRi-go"
+  mode: "dev"
+  port: 8999
+log:
+  level: "debug"
+  filename: "MuRi-go.log"
+  max_size: 200
+  max_backups: 7
+mysql:
+  host: "xxxxxxxx"
+  port: 3306
+  user: "xxxxxx"
+  password: "xxxxxx"
+  dbname: "xxxxxx"
+  LogMode: true
+  MaxIdleConns: 10               //最大空闲连接
+  MaxOpenConns: 100              //最大连接数
